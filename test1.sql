@@ -53,4 +53,4 @@ SELECT
 FROM PatientStay ps left JOIN DimHospitalBad dh ON ps.hospital = dh.Hospital
 where DH.Hospital IS NULL
 
-Select * from DimHospitalBad
+Select * from DimHospitalBad.
